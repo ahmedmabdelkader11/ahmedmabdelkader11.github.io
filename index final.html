@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Mahmoud Abdelkader | General Accountant</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="Ahmed Mahmoud Abdelkader — General Accountant in Alexandria, Egypt with 3+ years of experience in revenue accounting, treasury management, and financial reporting across logistics, real estate, and healthcare sectors.">
+  <meta name="keywords" content="Ahmed Mahmoud Abdelkader, General Accountant, Accountant Alexandria Egypt, Revenue Accounting, Treasury Management, Financial Reporting">
+  <meta name="author" content="Ahmed Mahmoud Abdelkader">
+
+  <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Ahmed Mahmoud Abdelkader | General Accountant">
+  <meta property="og:description"
+    content="General Accountant in Alexandria, Egypt with 3+ years of experience in revenue accounting, treasury management, and financial reporting.">
+  <meta property="og:image" content="assets/hero-desktop.jpeg">
+  <meta property="og:url" content="REPLACE_WITH_YOUR_SITE_URL">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ahmed Mahmoud Abdelkader | General Accountant">
+  <meta name="twitter:description"
+    content="General Accountant in Alexandria, Egypt with 3+ years of experience in revenue accounting, treasury management, and financial reporting.">
+  <meta name="twitter:image" content="assets/hero-desktop.jpeg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="pts"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="logo" data-en="A.M. Abdelkader" data-ar="أ.م. عبدالقادر">A.M. Abdelkader</div>
+    <div class="nav-bottom">
+      <ul class="nav-links">
+        <li><a href="#about" data-en="About" data-ar="نبذة">About</a></li>
+        <li><a href="#experience" data-en="Experience" data-ar="الخبرات">Experience</a></li>
+        <li><a href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+        <li><a href="#education" data-en="Education" data-ar="التعليم">Education</a></li>
+        <li><a href="#contact" data-en="Contact" data-ar="التواصل">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="tbtn" id="lbtn" onclick="swapLang()">AR</button>
+        <button class="tbtn" id="dbtn" onclick="swapTheme()">☀ Light</button>
+        <button class="ham" id="ham" onclick="toggleMob()">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mob-nav" id="mobnav">
+    <a href="#about" onclick="closeMob()" data-en="About" data-ar="نبذة">About</a>
+    <a href="#experience" onclick="closeMob()" data-en="Experience" data-ar="الخبرات">Experience</a>
+    <a href="#skills" onclick="closeMob()" data-en="Skills" data-ar="المهارات">Skills</a>
+    <a href="#education" onclick="closeMob()" data-en="Education" data-ar="التعليم">Education</a>
+    <a href="#contact" onclick="closeMob()" data-en="Contact" data-ar="التواصل">Contact</a>
+    <div class="mob-nav-btns">
+      <button class="tbtn" onclick="swapLang()">AR / EN</button>
+      <button class="tbtn" onclick="swapTheme()">Light / Dark</button>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+      <div class="hero-txt">
+        <div class="hero-badge rv">
+          <div class="badge-dot"></div>
+          <span data-en="Available for Opportunities" data-ar="متاح للفرص الوظيفية">Available for Opportunities</span>
+        </div>
+        <div class="hero-name rv">
+          Ahmed<br><span class="gold">Mahmoud</span> Abdelkader
+        </div>
+        <div class="hero-title rv" data-en="General Accountant · Alexandria, Egypt"
+          data-ar="محاسب عام · الإسكندرية، مصر">General Accountant · Alexandria, Egypt</div>
+        <p class="hero-desc rv"
+          data-en="Specializing in revenue accounting, treasury management, and financial reporting across real estate and healthcare sectors."
+          data-ar="متخصص في محاسبة الإيرادات وإدارة الخزينة والتقارير المالية في قطاعي العقارات والرعاية الصحية.">
+          Specializing in revenue accounting, treasury management, and financial reporting across real estate and
+          healthcare sectors.
+        </p>
+        <div class="hero-btns rv">
+          <a href="#contact" class="btn-fill" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</a>
+          <a href="#experience" class="btn-out" data-en="View Work" data-ar="الخبرات">View Work</a>
+        </div>
+      </div>
+      <div class="photo-box rv-r">
+        <div class="photo-corners">
+          <div class="c1"></div>
+          <div class="c2"></div>
+          <picture>
+            <source media="(max-width: 768px)" srcset="assets/hero-mobile.jpeg">
+            <img class="photo-img" src="assets/hero-desktop.jpeg"
+              alt="Ahmed Mahmoud Abdelkader" width="600" height="710" loading="eager">
+          </picture>
+        </div>
+        <div class="photo-label" data-en="General Accountant" data-ar="محاسب عام">General Accountant</div>
+        <div class="photo-stat">
+          <div class="ps"><span class="ps-n">3+</span><span class="ps-l" data-en="Years" data-ar="سنوات">Years</span>
+          </div>
+          <div class="ps"><span class="ps-n">3+</span><span class="ps-l" data-en="Firms" data-ar="شركات">Firms</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="rv">
+      <span class="sec-label" data-en="01 — About" data-ar="٠١ — نبذة">01 — About</span>
+      <h2 class="sec-title" data-en="Who I Am" data-ar="من أنا">Who I Am</h2>
+      <div class="sec-rule"></div>
+    </div>
+    <div class="about-grid">
+      <div class="rv-l">
+        <p class="about-p"
+          data-en="I am a dedicated accounting professional with a Bachelor's degree in Commerce from Alexandria University. My career is built on precision, analytical thinking, and a commitment to continuous growth."
+          data-ar="محاسب محترف حاصل على بكالوريوس تجارة من جامعة الإسكندرية، مسيرتي مبنية على الدقة والتفكير التحليلي والالتزام بالنمو المستمر.">
+          I am a dedicated accounting professional with a Bachelor's degree in Commerce from Alexandria University. My
+          career is built on precision, analytical thinking, and a commitment to continuous growth.
+        </p>
+        <div class="about-quote"
+          data-en='"Accuracy is not a detail — it is the foundation of every financial decision."'
+          data-ar='"الدقة ليست تفصيلة — هي أساس كل قرار مالي."'>
+          "Accuracy is not a detail — it is the foundation of every financial decision."
+        </div>
+        <p class="about-p"
+          data-en="With hands-on experience across real estate and healthcare, I bring a versatile perspective to financial operations, delivering reliable records and insightful reports."
+          data-ar="بخبرة عملية في قطاعي العقارات والرعاية الصحية، أقدم رؤية شاملة للعمليات المالية مع توفير سجلات موثوقة وتقارير ثاقبة.">
+          With hands-on experience across real estate and healthcare, I bring a versatile perspective to financial
+          operations, delivering reliable records and insightful reports.
+        </p>
+      </div>
+      <div class="stats-4 rv-r">
+        <div class="sbox"><span class="sn">3+</span><span class="sl" data-en="Years Exp." data-ar="سنوات خبرة">Years
+            Exp.</span></div>
+        <div class="sbox"><span class="sn">3+</span><span class="sl" data-en="Companies"
+            data-ar="شركات">Companies</span></div>
+        <div class="sbox"><span class="sn">2022</span><span class="sl" data-en="Graduated"
+            data-ar="تخرج">Graduated</span></div>
+        <div class="sbox"><span class="sn">ALX</span><span class="sl" data-en="Alexandria"
+            data-ar="الإسكندرية">Alexandria</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="rv">
+      <span class="sec-label" data-en="02 — Experience" data-ar="٠٢ — الخبرات">02 — Experience</span>
+      <h2 class="sec-title" data-en="Work History" data-ar="المسيرة المهنية">Work History</h2>
+      <div class="sec-rule"></div>
+    </div>
+    <div class="tl">
+      <div class="tl-line"></div>
+
+      <div class="tl-item rv">
+        <div class="tl-dot"></div>
+        <div class="tl-date" data-en="Mar 2026 — Present" data-ar="مارس ٢٠٢٦ — حتى الآن">Mar 2026 — Present</div>
+        <div class="tl-role" data-en="General Accountant" data-ar="محاسب عام">General Accountant</div>
+        <div class="tl-co" data-en="Horus New Logistics — Alexandria"
+          data-ar="حورس نيو لوجستيكس — الإسكندرية">Horus New Logistics — Alexandria</div>
+        <p class="tl-text"
+          data-en="Overseeing general accounting operations, financial record-keeping, and reporting for a logistics company. Responsible for full-cycle accounting and ensuring accuracy across all financial transactions."
+          data-ar="الإشراف على العمليات المحاسبية العامة والسجلات المالية والتقارير لشركة لوجستيات، مع المسؤولية عن الدورة المحاسبية الكاملة وضمان دقة جميع المعاملات المالية.">
+          Overseeing general accounting operations, financial record-keeping, and reporting for a logistics company.
+          Responsible for full-cycle accounting and ensuring accuracy across all financial transactions.
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-dot"></div>
+        <div class="tl-date" data-en="Dec 2024 — Mar 2026" data-ar="ديسمبر ٢٠٢٤ — مارس ٢٠٢٦">Dec 2024 — Mar 2026</div>
+        <div class="tl-role" data-en="Revenue Accountant" data-ar="محاسب إيرادات">Revenue Accountant</div>
+        <div class="tl-co" data-en="Robel Real Estate Investment — Alexandria"
+          data-ar="روبيل للاستثمار العقاري — الإسكندرية">Robel Real Estate Investment — Alexandria</div>
+        <p class="tl-text"
+          data-en="Managed revenue recognition and financial records for real estate transactions. Responsible for accurate journal entries, revenue tracking, and contributions to financial statement preparation."
+          data-ar="إدارة الاعتراف بالإيرادات والسجلات المالية للمعاملات العقارية، وتسجيل القيود اليومية بدقة ومتابعة الإيرادات والمساهمة في إعداد القوائم المالية.">
+          Managed revenue recognition and financial records for real estate transactions. Responsible for accurate
+          journal entries, revenue tracking, and contributions to financial statement preparation.
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-dot"></div>
+        <div class="tl-date" data-en="Jan 2024 — Nov 2024" data-ar="يناير ٢٠٢٤ — نوفمبر ٢٠٢٤">Jan 2024 — Nov 2024</div>
+        <div class="tl-role" data-en="Treasury Accountant" data-ar="محاسب خزينة">Treasury Accountant</div>
+        <div class="tl-co" data-en="Alexandria Pediatric Center — Alexandria"
+          data-ar="مركز الإسكندرية لطب الأطفال — الإسكندرية">Alexandria Pediatric Center — Alexandria</div>
+        <p class="tl-text"
+          data-en="Oversaw daily treasury operations including cash flow management, bank reconciliations, and financial transaction recording. Ensured compliance with internal financial controls and reporting standards."
+          data-ar="الإشراف على العمليات اليومية للخزينة بما تشمل إدارة التدفق النقدي والمطابقة البنكية وتسجيل المعاملات المالية مع ضمان الامتثال للضوابط المالية الداخلية.">
+          Oversaw daily treasury operations including cash flow management, bank reconciliations, and financial
+          transaction recording. Ensured compliance with internal financial controls and reporting standards.
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-dot"></div>
+        <div class="tl-date" data-en="Summer 2021" data-ar="صيف ٢٠٢١">Summer 2021</div>
+        <div class="tl-role" data-en="Summer Intern" data-ar="متدرب صيفي">Summer Intern</div>
+        <div class="tl-co" data-en="Safe Pharma Co. (Pharco)" data-ar="شركة سيف فارما (فاركو)">Safe Pharma Co. (Pharco)
+        </div>
+        <p class="tl-text"
+          data-en="Reviewed balance sheets and annual financial statements. Gained exposure to production line documentation and pharmaceutical inventory systems."
+          data-ar="مراجعة الميزانيات العمومية والقوائم المالية السنوية والتعرف على توثيق خطوط الإنتاج وأنظمة المخزون الدوائي.">
+          Reviewed balance sheets and annual financial statements. Gained exposure to production line documentation and
+          pharmaceutical inventory systems.
+        </p>
+      </div>
+
+      <div class="tl-item rv">
+        <div class="tl-dot"></div>
+        <div class="tl-date" data-en="Summer 2019" data-ar="صيف ٢٠١٩">Summer 2019</div>
+        <div class="tl-role" data-en="Summer Intern" data-ar="متدرب صيفي">Summer Intern</div>
+        <div class="tl-co" data-en="Egyptian Natural Gas Co. (Gasco)" data-ar="شركة الغاز الطبيعي المصرية (جاسكو)">
+          Egyptian Natural Gas Co. (Gasco)</div>
+        <p class="tl-text"
+          data-en="Reviewed balance sheets and annual financial statements of a large state-owned energy enterprise, building foundational understanding of corporate financial reporting."
+          data-ar="مراجعة الميزانيات والقوائم المالية السنوية لإحدى كبرى شركات الطاقة المملوكة للدولة وبناء فهم أساسي لإعداد التقارير المالية للشركات الكبرى.">
+          Reviewed balance sheets and annual financial statements of a large state-owned energy enterprise, building
+          foundational understanding of corporate financial reporting.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="rv">
+      <span class="sec-label" data-en="03 — Skills" data-ar="٠٣ — المهارات">03 — Skills</span>
+      <h2 class="sec-title" data-en="Expertise" data-ar="الكفاءات">Expertise</h2>
+      <div class="sec-rule"></div>
+    </div>
+    <div class="sk-grid">
+      <div class="sk-card rv">
+        <span class="sk-icon">📊</span>
+        <div class="sk-ttl" data-en="Accounting" data-ar="المحاسبة">Accounting</div>
+        <ul class="sk-list">
+          <li class="sk-li" data-en="Financial Statement Analysis" data-ar="تحليل القوائم المالية">Financial Statement
+            Analysis</li>
+          <li class="sk-li" data-en="Daily Journal Entries" data-ar="القيود اليومية">Daily Journal Entries</li>
+          <li class="sk-li" data-en="Revenue Accounting" data-ar="محاسبة الإيرادات">Revenue Accounting</li>
+          <li class="sk-li" data-en="Treasury Management" data-ar="إدارة الخزينة">Treasury Management</li>
+          <li class="sk-li" data-en="Bank Reconciliation" data-ar="المطابقة البنكية">Bank Reconciliation</li>
+          <li class="sk-li" data-en="Tax Preparation" data-ar="الإقرارات الضريبية">Tax Preparation</li>
+        </ul>
+      </div>
+      <div class="sk-card rv" style="transition-delay:.1s">
+        <span class="sk-icon">💻</span>
+        <div class="sk-ttl" data-en="Technical" data-ar="التقنية">Technical</div>
+        <ul class="sk-list">
+          <li class="sk-li" data-en="Microsoft Office (MOS Certified)" data-ar="Microsoft Office (معتمد MOS)">Microsoft
+            Office (MOS Certified)</li>
+          <li class="sk-li" data-en="Advanced Excel" data-ar="Excel المتقدم">Advanced Excel</li>
+          <li class="sk-li" data-en="High-Accuracy Data Entry" data-ar="إدخال بيانات بدقة عالية">High-Accuracy Data
+            Entry</li>
+          <li class="sk-li" data-en="ICDL Certified" data-ar="حاصل على ICDL">ICDL Certified</li>
+          <li class="sk-li" data-en="Financial Research" data-ar="البحث المالي">Financial Research</li>
+        </ul>
+      </div>
+      <div class="sk-card rv" style="transition-delay:.2s">
+        <span class="sk-icon">🤝</span>
+        <div class="sk-ttl" data-en="Personal" data-ar="الشخصية">Personal</div>
+        <ul class="sk-list">
+          <li class="sk-li" data-en="Problem-Solving" data-ar="حل المشكلات">Problem-Solving</li>
+          <li class="sk-li" data-en="Leadership" data-ar="القيادة">Leadership</li>
+          <li class="sk-li" data-en="Communication" data-ar="التواصل">Communication</li>
+          <li class="sk-li" data-en="Continuous Learning" data-ar="التعلم المستمر">Continuous Learning</li>
+          <li class="sk-li" data-en="Attention to Detail" data-ar="الاهتمام بالتفاصيل">Attention to Detail</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="rv">
+      <span class="sec-label" data-en="04 — Education & Certifications" data-ar="٠٤ — التعليم والشهادات">04 — Education
+        & Certifications</span>
+      <h2 class="sec-title" data-en="Qualifications" data-ar="المؤهلات">Qualifications</h2>
+      <div class="sec-rule"></div>
+    </div>
+    <div class="edu-grid">
+      <div class="rv-l">
+        <div class="edu-h" data-en="🎓 Education" data-ar="🎓 التعليم">🎓 Education</div>
+        <div class="edu-card">
+          <div class="edu-ct" data-en="Bachelor's Degree in Commerce" data-ar="بكالوريوس تجارة">Bachelor's Degree in
+            Commerce</div>
+          <div class="edu-org" data-en="Alexandria University — Accounting Dept."
+            data-ar="جامعة الإسكندرية — قسم المحاسبة">Alexandria University — Accounting Dept.</div>
+          <div class="edu-date" data-en="2022 · Grade: Good" data-ar="٢٠٢٢ · تقدير: جيد">2022 · Grade: Good</div>
+        </div>
+      </div>
+      <div class="rv-r">
+        <div class="edu-h" data-en="📜 Certifications" data-ar="📜 الشهادات">📜 Certifications</div>
+        <div class="edu-card">
+          <div class="edu-ct" data-en="Research & Commercial Studies + MOS" data-ar="الدراسات التجارية والبحثية + MOS">
+            Research & Commercial Studies + MOS</div>
+          <div class="edu-org" data-en="Alexandria University" data-ar="جامعة الإسكندرية">Alexandria University</div>
+          <div class="edu-date" data-en="December 2023" data-ar="ديسمبر ٢٠٢٣">December 2023</div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-ct" data-en="ICDL — International Computer Driving Licence"
+            data-ar="ICDL — رخصة قيادة الحاسوب الدولية">ICDL — International Computer Driving Licence</div>
+          <div class="edu-org">Edraak</div>
+          <div class="edu-date" data-en="September 2023" data-ar="سبتمبر ٢٠٢٣">September 2023</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="rv" style="text-align:center">
+      <span class="sec-label" data-en="05 — Contact" data-ar="٠٥ — التواصل">05 — Contact</span>
+      <h2 class="sec-title" data-en="Contact Me" data-ar="تواصل معي">Contact Me</h2>
+      <div class="sec-rule" style="margin-inline:auto"></div>
+    </div>
+    <div class="con-form-wrap">
+      <!-- Left: info -->
+      <div class="con-info rv-l">
+        <p class="con-desc" data-en="Feel free to reach out for collaborations or opportunities."
+          data-ar="لا تتردد في التواصل للتعاون أو الفرص الوظيفية.">
+          Feel free to reach out for collaborations or opportunities.
+        </p>
+        <div id="con-links-box" class="con-links-hidden">
+          <a href="mailto:ahmed.m.abdelkader11@gmail.com"
+            class="c-lnk"><span>✉</span><span>ahmed.m.abdelkader11@gmail.com</span></a>
+          <a href="tel:01024612117" class="c-lnk"><span>📞</span><span>01024612117</span></a>
+          <a href="https://www.linkedin.com/in/ahmed-abdelkader10" target="_blank"
+            class="c-lnk"><span>🔗</span><span>LinkedIn Profile</span></a>
+          <a href="https://maps.google.com/?q=Moharam+Bek,Alexandria,Egypt" target="_blank"
+            class="c-lnk"><span>📍</span><span data-en="Moharam Bek, Alexandria" data-ar="محرم بك، الإسكندرية">Moharam
+              Bek, Alexandria</span></a>
+        </div>
+        <div>
+          <button class="btn-out" style="display:inline-block" onclick="toggleConLinks(this)" data-en="Contact Me"
+            data-ar="تواصل معي">Contact Me</button>
+          &nbsp;&nbsp;
+          <button class="btn-fill" onclick="dlPage()" data-en="Download CV (PDF)"
+            data-ar="تحميل السيرة الذاتية">Download CV (PDF)</button>
+        </div>
+      </div>
+      <!-- Right: form -->
+      <div class="con-form-card rv-r">
+        <div class="cf-group">
+          <label class="cf-label" for="cf-name" data-en="Name" data-ar="الاسم">Name</label>
+          <input class="cf-input" id="cf-name" type="text" placeholder="Your Name" data-ph-en="Your Name"
+            data-ph-ar="اسمك">
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-email" data-en="Email" data-ar="البريد الإلكتروني">Email</label>
+          <input class="cf-input" id="cf-email" type="email" placeholder="Your Email" data-ph-en="Your Email"
+            data-ph-ar="بريدك الإلكتروني">
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-subject" data-en="Subject" data-ar="الموضوع">Subject</label>
+          <input class="cf-input" id="cf-subject" type="text" placeholder="Subject" data-ph-en="Subject"
+            data-ph-ar="الموضوع">
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-message" data-en="Message" data-ar="الرسالة">Message</label>
+          <textarea class="cf-textarea" id="cf-message" placeholder="How can I help you?"
+            data-ph-en="How can I help you?" data-ph-ar="كيف يمكنني مساعدتك؟"></textarea>
+        </div>
+        <div class="cf-btns">
+          <button class="cf-btn-primary" onclick="submitContactForm()" data-en="Send Message"
+            data-ar="إرسال الرسالة">Send Message</button>
+          <button class="cf-btn-secondary" onclick="dlPage()" data-en="Download CV (PDF)"
+            data-ar="تحميل السيرة الذاتية">Download CV (PDF)</button>
+        </div>
+        <div class="cf-success" id="cf-success" data-en="✓ Message sent successfully! I'll get back to you soon."
+          data-ar="✓ تم إرسال رسالتك بنجاح! سأرد عليك قريباً.">
+          ✓ Message sent successfully! I'll get back to you soon.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="f-n">Ahmed Mahmoud Abdelkader</div>
+    <div class="f-c" data-en="© 2026 · General Accountant" data-ar="© ٢٠٢٦ · محاسب عام">© 2026 · General Accountant
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
