@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ahmedmabdelkader11.github.io/sitemap.xml
